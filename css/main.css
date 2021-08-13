@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section > div {
+    padding: 80px 0 50px;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none !important;
+    background: transparent;
+}
+
+h2 {
+    color: #2c3e50;
+}
+
+h1,
+h6 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+h6 {
+    color: #7f8c8d;
+    font-weight: 100px;
+}
+
+#banner {
+    padding: 200px;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    /*background-repeat: no-repeat;*/
+    background-position: center;
+    text-align: center;
+}
+.img-fill:hover{
+    filter: invert(1);
+}
+
+.p-banner {
+    color: white;
+    font-size: 50px;
+}
+
+.s-p-banner {
+    color: white;
+    font-size: 25px;
+}
+
+.btn-banner {
+    border: 1px solid #fff;
+    background: rgba(255,255,255,0.2);
+    padding:10px 20px;
+    margin-top: 50px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.btn-banner:hover {
+    border: 1px solid transparent;
+    background-color: #0652DD;
+}
+
+.card {
+    border: none !important;
+}
+
+.hi {
+    text-align: center;
+}
+
+.hi .card-body > div:last-child {
+    color: #7f8c8d;
+    font-size: 15px;
+}
+
+.icon i {
+    color: #95a5a6;
+    font-size: 15px;
+    margin: 0 5px;
+}
+
+.icon i:hover {
+    color: #2c3e50;
+    cursor: pointer;
+}
+
+.icon + div p:first-child {
+    color: #2980b9;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.icon + div p:last-child {
+    color: #95a5a6;
+    font-size: 10px;
+}
+
+.icon-2 {
+    text-align: center;
+    color: #bdc3c7;
+    font-size: 30px;
+}
+
+.icon-2 i {
+    margin: 0 20px;
+}
+
+.icon-2 i:hover {
+    color: #3498db;
+    cursor: pointer;
+}
+
+.img-banner {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding-bottom: 50px;
+    color: #7f8c8d;
+}
+
+.p1 {
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.p1:hover {
+    color: #2980b9;
+}
+
+.p4 {
+    font-size: 20px;
+}
+
+.p2 {
+    margin: 50px 0;
+    color: #606060;
+}
+
+.travel-img {
+    width: 100%;
+}
+
+
+#RecentAdventuresOnGallery .card {
+    border: 1px solid rgba(0,0,0,.125) !important;
+    margin: 20px 0;
+}
+
+#RecentAdventuresOnGallery .card:hover a{
+    color: #3498db;
+}
+
+#RecentAdventuresOnGallery .card-body {
+    text-align: center;
+}
+
+#RecentAdventuresOnGallery a{
+    color: #2c3e50;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#JoinTheMailingList .img-banner {
+    padding-bottom: 0;
+    margin-bottom: 50px;
+}
+
+#JoinTheMailingList form {
+    width: 50%;
+    margin: auto;
+    position: relative;
+}
+
+#JoinTheMailingList button {
+    position: absolute;
+    top: 7px;
+    right: 20px;
+    border: none;
+    background-color: transparent;
+}
+
+#JoinTheMailingList form i {
+    font-size: 25px;
+    color: #3498db;
+}
+
+#JoinTheMailingList form input {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/*form*/
+#form {
+    margin: 50px auto 100px;
+    padding: 50px;
+/*    border: 1px solid transparent;*/
+    border-radius: 10px;
+    width: 600px;
+    height: 100%;
+    background-color: #f5f6fa;
+    color: #535c68;
+}
+
+#form h3 {
+    text-align: center;
+    padding: 20px 0 50px;
+}
+
+#form input {
+    margin: 5px auto 50px;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    width: 100%;
+    box-shadow: none;
+}
+
+/*
+#form input:target {
+    border: 1px solid #3498db;
+}
+*/
+
+#form button {
+    padding: 10px;
+    width: 100px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: #fff;
+}
+
+#form i {
+    margin-left: 5px;
+}
+
+#form button:hover {
+    background-color: #34495e;
+}
+
+#form div {
+    margin: 10px 0;
+}
+
+#form a {
+    color: #3498db;
+    margin: 10px;
+}
+
+#form a:hover {
+    color: #2980b9;
+}
+
+#explore-category > div img {
+    height: 30px;
+    width: 35px;
+    margin-right: 10px;
+}
+
+#explore-category > div {
+    padding: 10px 5px;
+    border-bottom: 1px solid #dcdde1;
+}
+
+#explore-category > div a {
+    color: #2c3e50;
+    font-weight: 500;
+}
+
+#explore-category > div:hover {
+    background-color: #0097e6;
+}
+
+#explore-category > div:hover a {
+    color: white;
+}
+
+#explore-category > div:hover img {
+    filter: invert(1);
+}
+
+/*zoom*/
+.zoom{
+    overflow: hidden;
+}
+
+.zoom img{
+    transition: transform .9s;
+}
+
+.zoom img:hover{
+    transform: scale(1.06) rotate(1.5deg);
+}
+
+.zoom img:hover ~ i {
+    /*transform: scale(.9);*/
+    transition: .4s;
+    color: #fff;
+    display: block !important;
+}
+
+.zoom i {
+    display: none !important;
+    font-size: 60px;
+    color: #fff;
+    position: absolute;
+    top: 15%;
+    left: 40%;
+}
+
+.zoom i:hover {
+    display: block !important;
+}

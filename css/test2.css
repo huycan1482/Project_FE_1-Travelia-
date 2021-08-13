@@ -1,0 +1,34 @@
+i {
+    display: none !important;
+    font-size: 60px;
+    color: black;
+    position: absolute;
+    top: 15%;
+    left: 45%;
+    /*transition-duration: .9s*/ /*ease*/; /**/
+
+}
+
+hover{
+    transform: scale(1.06) rotate(1.5deg);
+    display: block !important;
+    transition: scale .6s;
+    color: red;
+}    
+
+/*
+i:hover {
+    transition: .6s;
+}
+*/
+
+/*div {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+}
+
+div:hover {
+    background-color: black;
+    transition: .9s;
+}*/

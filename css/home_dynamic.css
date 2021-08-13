@@ -1,0 +1,23 @@
+.hi {
+    margin: 10px auto 0px;
+    border-bottom: 1px solid #95a5a6;
+}
+
+
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    .icon + div div div:nth-child(2) {
+        border-left: 1px solid #bdc3c7;
+        border-right: 1px solid #bdc3c7;
+    }
+}
+
+/*// Medium devices (tablets, 768px and up*/
+) @media (min-width: 768px) {}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}

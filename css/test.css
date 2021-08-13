@@ -1,0 +1,16 @@
+.slide-show1 {
+   /* background-image: url(../images/2.jpg);*/
+    height: 550px;
+}
+
+.slide-show2 {
+    background-image: url(../images/5.jpg);
+    height: 550px;
+}
+
+.slide-show3 {
+    background-image: url(../images/7.jpg);
+    height: 550px;
+}
+
+.carousel-item {}

@@ -1,0 +1,135 @@
+section {
+    background-color: #ecf0f1;
+}
+
+#carouselExampleFade {
+    padding-top: 0;
+}
+
+.slide-img {
+    height: 550px;
+}
+
+.carousel-caption {
+    top: 100px;
+    bottom: 0;
+}
+
+.carousel-item {
+    background-image: url(../images/10.jpg);
+    height: 550px;
+}
+
+/*.carousel-control-prev-icon {
+    background-color: red;
+    z-index: 1;
+}*/
+
+h1 {
+    font-size: 70px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.top-slide-text {
+    font-size: 35px;
+    font-weight: 500;
+    color: #fff;
+    border: 1.5px solid #fff;
+    border-radius: 10px;
+    padding: 10px;
+        /*position: relative;
+    mix-blend-mode: exclusion;
+    z-index: 1000;*/
+}
+
+.bot-slide-text {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.slide-button {
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: transparent;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.slide-button:hover {
+    cursor: pointer;
+    background-color: #3498db !important;
+    border: 2px solid transparent;
+}
+
+#left-side {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+#img-banner {
+    margin-top: 30px;
+}
+
+#img-banner img {
+    width: 100%;
+}
+
+#main-content {
+    flex-wrap: wrap;
+}
+
+.card-items {
+    margin-bottom: 50px;
+}
+
+/* {
+    background-color: #fff;
+    padding: 10px;
+    margin: 50px 0;
+}*/
+
+#explore {
+    background-color: #fff;
+    padding: 20px 0 10px; 
+    margin: 10px;
+}
+
+.explore-items {
+    padding: 10px;
+}
+
+.explore-items:hover {
+    color: white;
+    background-color: #3498db;
+    cursor: pointer;
+}
+
+/*populartravel*/
+#PopularTravelStory {
+    background-color: #fff;
+    padding: 20px;
+    margin: 30px 0;
+}
+
+.story-items {
+    border-bottom: 1px solid #ecf0f1;
+    padding: 20px 0;
+}
+
+.story-items p {
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.story-items a {
+    color: #2d3436;
+    font-weight: 500;
+}
+
+.story-items a:hover {
+    color: #3498db;
+}
+
+

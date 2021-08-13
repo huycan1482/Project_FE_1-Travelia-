@@ -1,0 +1,54 @@
+/*https://www.google.com.vn/search?q=line%20art%20travel%20world&tbm=isch&hl=vi&hl=vi&tbs=rimg%3ACYbcgRR0de5JImA6Xlt8XrBTxjy0YNdggivyZ4N5kInu7nqUjDf6LcX4Y7RVDLQf0heaucvga78yWJtBaTt1A0BxcgRdunHjd2quW8S4NJpZ10H9xnm_1kI66TZhHnhs-uVFNSdqCit01lD8qEgk6Xlt8XrBTxhGma_1SPJW7jmioSCTy0YNdggivyEdzMw1c-oLAoKhIJZ4N5kInu7noRGwCyObF_1G6IqEgmUjDf6LcX4YxHhbusWrdnHzSoSCbRVDLQf0heaEavP9VoWp-FfKhIJucvga78yWJsRlrGzY3kiTCwqEglBaTt1A0BxchFNnGL4WjIrryoSCQRdunHjd2quES9SCgD4p5A8KhIJW8S4NJpZ10ERvfJ21Vmp8JYqEgn9xnm_1kI66TRFOuYEht1rDYioSCZhHnhs-uVFNEUNtkFqpzbO2KhIJSdqCit01lD8R48X-5lcIS95hxDCXO3Owxy4&ved=0CCAQuIIBahcKEwjQ9ejmh7PpAhUAAAAAHQAAAAAQCA&biw=1519&bih=712*/
+
+section > div {
+    border-bottom: 1px solid #95a5a6;
+}
+
+section >div:first-child{
+    padding-top: 0px;
+    text-align: center;
+}
+
+/*hi*/
+
+
+/*end div1*/
+
+section > div:nth-child(3) div div{
+    margin-bottom: 30px;
+}
+
+section > div:nth-child(3) a {
+    position: absolute;
+    left: 10%;
+    bottom: 40px;
+    color: white;
+    font-weight: 500;
+}
+
+section > div:nth-child(3) img:hover a {
+    text-shadow: 0 0 5px rgba(0, 0, 0, 1);
+}
+
+/*end div3*/
+
+/*end div4*/
+
+/*end div5*/
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    .icon + div div div:nth-child(2) {
+        border-left: 1px solid #bdc3c7;
+        border-right: 1px solid #bdc3c7;
+    }
+}
+
+/*// Medium devices (tablets, 768px and up*/
+ @media (min-width: 768px) {}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
